@@ -1,0 +1,158 @@
+@charset "utf-8";
+html {
+  font-size: 62.5%;
+}
+
+body{
+    width: 1200px;
+    margin:auto;
+    padding:0;
+}
+header{
+    background-color: #fff;
+    text-align: center;
+}
+
+h1{
+    padding: 10px;
+}
+
+#judgment{
+    text-align: center;
+    font-size: 6rem;
+    padding: 30px 0 0;
+}
+
+#winrate{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#rate{
+    text-align: center;
+    font-size: 10rem;
+    padding: 30px 0 0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.area1{
+    width: 600px;
+    height: 270px;
+    border: solid;
+    border-width: 2px 0 2px 2px;
+}
+
+#gu_btn{
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 9.5px;
+    background: red;
+    color: #ddd;
+    border-radius: 4px;
+    border-width: thin;
+}
+
+#cho_btn{
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 9.5px;
+    background: blue;
+    color: #ddd;
+    border-radius: 4px;
+    border-width: thin;
+}
+
+#par_btn{
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 9.5px;
+    background: green;
+    color: #ddd;
+    border-radius: 4px;
+    border-width: thin;
+}
+
+.area2{
+    width: 600px;
+    height: 270px;
+    border: solid;
+    border-width: 2px 2px 2px 2px;
+}
+
+#pc_hands1 {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 8px;
+    background: red;
+    color: #ddd;
+    border-radius: 4px;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0.1rem solid black;
+}
+
+#pc_hands2 {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 8px;
+    background: blue;
+    color: #ddd;
+    border-radius: 4px;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0.1rem solid black;
+}
+
+#pc_hands3 {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 8px;
+    background: green;
+    color: #ddd;
+    border-radius: 4px;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0.1rem solid black;
+}
+
+
+footer{
+    background-color: #fff;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
